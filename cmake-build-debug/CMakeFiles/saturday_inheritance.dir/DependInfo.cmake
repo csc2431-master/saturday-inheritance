@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/tmp/tmp.MnI69XnwVl/employee.cpp" "/tmp/tmp.MnI69XnwVl/cmake-build-debug/CMakeFiles/saturday_inheritance.dir/employee.cpp.o"
   "/tmp/tmp.MnI69XnwVl/main.cpp" "/tmp/tmp.MnI69XnwVl/cmake-build-debug/CMakeFiles/saturday_inheritance.dir/main.cpp.o"
   "/tmp/tmp.MnI69XnwVl/person.cpp" "/tmp/tmp.MnI69XnwVl/cmake-build-debug/CMakeFiles/saturday_inheritance.dir/person.cpp.o"
   )

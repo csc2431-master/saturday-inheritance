@@ -22,10 +22,11 @@ Person::Person(const Person& other): _name(other._name), _ssn(other._ssn) {
 Person &Person::operator=(const Person& rhs) {
 	_name = rhs._name;
 	_ssn = rhs._ssn;
+	return *this;
 }
 
 Person::~Person() {
-	cout << "Destructor of Person" << endl;
+	cout << "Destructor of Person " << _name << endl;
 }
 
 string Person::ToString() const {

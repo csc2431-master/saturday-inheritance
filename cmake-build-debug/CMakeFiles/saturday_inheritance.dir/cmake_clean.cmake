@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/saturday_inheritance.dir/main.cpp.o"
   "CMakeFiles/saturday_inheritance.dir/person.cpp.o"
+  "CMakeFiles/saturday_inheritance.dir/employee.cpp.o"
   "saturday_inheritance.pdb"
   "saturday_inheritance"
 )

@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/saturday_inheritance.dir/main.cpp.o CMakeFiles/saturday_inheritance.dir/person.cpp.o  -o saturday_inheritance 
+/usr/bin/c++  -g   CMakeFiles/saturday_inheritance.dir/main.cpp.o CMakeFiles/saturday_inheritance.dir/person.cpp.o CMakeFiles/saturday_inheritance.dir/employee.cpp.o  -o saturday_inheritance 

@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/tmp/tmp.MnI69XnwVl/employee.cpp">
+			<Option target="saturday_inheritance"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.MnI69XnwVl/employee.h">
+			<Option target="saturday_inheritance"/>
+		</Unit>
 		<Unit filename="/tmp/tmp.MnI69XnwVl/main.cpp">
 			<Option target="saturday_inheritance"/>
 		</Unit>

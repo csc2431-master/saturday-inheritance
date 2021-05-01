@@ -123,6 +123,33 @@ saturday_inheritance/fast:
 	$(MAKE) -f CMakeFiles/saturday_inheritance.dir/build.make CMakeFiles/saturday_inheritance.dir/build
 .PHONY : saturday_inheritance/fast
 
+employee.o: employee.cpp.o
+
+.PHONY : employee.o
+
+# target to build an object file
+employee.cpp.o:
+	$(MAKE) -f CMakeFiles/saturday_inheritance.dir/build.make CMakeFiles/saturday_inheritance.dir/employee.cpp.o
+.PHONY : employee.cpp.o
+
+employee.i: employee.cpp.i
+
+.PHONY : employee.i
+
+# target to preprocess a source file
+employee.cpp.i:
+	$(MAKE) -f CMakeFiles/saturday_inheritance.dir/build.make CMakeFiles/saturday_inheritance.dir/employee.cpp.i
+.PHONY : employee.cpp.i
+
+employee.s: employee.cpp.s
+
+.PHONY : employee.s
+
+# target to generate assembly for a file
+employee.cpp.s:
+	$(MAKE) -f CMakeFiles/saturday_inheritance.dir/build.make CMakeFiles/saturday_inheritance.dir/employee.cpp.s
+.PHONY : employee.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -186,6 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... saturday_inheritance"
 	@echo "... edit_cache"
+	@echo "... employee.o"
+	@echo "... employee.i"
+	@echo "... employee.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
