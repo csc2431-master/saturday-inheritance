@@ -22,7 +22,7 @@ public:
 	int GetID()const;
 	float GetSalary()const;
 	void GiveRaise(float percentage);
-	string ToString()const;
+	virtual string ToString()const;
 };
 
 

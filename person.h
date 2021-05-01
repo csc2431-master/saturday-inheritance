@@ -19,7 +19,7 @@ public:
 	// Destructor should be virtual, why???
 	~Person();
 	// Should it be virtual??
-	string ToString()const;
+	virtual string ToString()const;
 	string GetName()const;
 	int GetSSN()const;
 };
