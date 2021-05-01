@@ -17,7 +17,7 @@ public:
 	Person(const Person&);
 	Person& operator=(const Person&);
 	// Destructor should be virtual, why???
-	~Person();
+	virtual ~Person();
 	// Should it be virtual??
 	virtual string ToString()const;
 	string GetName()const;

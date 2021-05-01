@@ -17,7 +17,7 @@ private:
 public:
 	Employee(const string& name, int ssn, int id, float salary);
 	Employee(const Employee& other);
-	~Employee();
+	virtual ~Employee();
 	Employee& operator=(const Employee& rhs);
 	int GetID()const;
 	float GetSalary()const;
